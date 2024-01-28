@@ -1,0 +1,14 @@
+console.log(" coc ff bgmi");const express = require('express')
+const app = express()
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Hello World!')
+})
+
+app.get('/login',(req,res)=>{
+    res.send('sucessfull login pg opens')
+})
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
